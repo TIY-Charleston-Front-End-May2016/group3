@@ -92,14 +92,14 @@ header {
   .knight{
   width: 19%;
   float: right;
-  padding-top: 30%;
-  padding-right: 12%;
+    padding-top: 16%;
+      padding-right: 12%;
   }
   .ninja{
     width: 23%;
     padding-bottom: 11%;
     width: 23%;
-    padding-top: 21%;
+    padding-top: 9%;
     margin-left: 0;
     position: relative;
     left: 19%;
