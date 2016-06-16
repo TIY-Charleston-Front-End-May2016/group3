@@ -3,7 +3,6 @@ header {
     background-color: gray;
 }
 .main-container {
-<<<<<<< HEAD
     width: 100%;
     height: 500px;
     border: 1px solid black;
@@ -12,23 +11,21 @@ header {
     border: 1px solid black;
 }
 .main-container .knightsvsninjas {
-=======
-  box-shadow: 10px 10px 5px #888888;
-  border: 2px solid black;
-  width: 67%;
-  height: 500px;
-  margin-left: 15%;
-   }
-
-
-  .knightsvsninjas {
+    box-shadow: 10px 10px 5px #888888;
+    border: 2px solid black;
+    width: 67%;
+    height: 500px;
+    margin-left: 15%;
+}
+.knightsvsninjas {
     background-image: url("images/dojo.png");
     transform: scaleX(-1);
-  border: 1px solid black; }
-  .main-container .buttonContainer {
-    border: 1px solid black; }
-  .main-container .knightsvsninjas {
->>>>>>> c43393fd0be4ac2e84e24f92605afe6fc33a0a68
+    border: 1px solid black;
+}
+.main-container .buttonContainer {
+    border: 1px solid black;
+}
+.main-container .knightsvsninjas {
     background-image: url("images/dojo.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -37,7 +34,6 @@ header {
     display: inline-block;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
     background-color: black;
 }
 .main-container .knightsvsninjas #hitMessage {
@@ -65,112 +61,130 @@ header {
     text-align: center;
     background-color: yellow;
     width: 100%;
-=======
-    background-color: black; }
-
-  .main-container .knights {
+    background-color: black;
+}
+.main-container .knights {
     width: 49%;
     height: 100%;
-   }
-    .main-container .knightsvsninjas .ninjas {
-      float: right;
-      display: inline-block;
-      width: 49%;
-      height: 100%;
-      background-color: red; }
-    .main-container .knightsvsninjas .knights {
-      display: inline-block;
-      width: 49%;
-      height: 100%;
-      background-color: blue; }
-
+}
+.main-container .knightsvsninjas .ninjas {
+    float: right;
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    background-color: red;
+}
+.main-container .knightsvsninjas .knights {
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    background-color: blue;
+}
 .score {
-  text-align: center;
-  background-color: yellow;
-  width: 100%; }
-
-  .knight{
-  width: 19%;
-  float: right;
-  padding-top: 30%;
-  padding-right: 12%;
-  }
-  .ninja{
+    text-align: center;
+    background-color: yellow;
+    width: 100%;
+}
+.knight {
+    width: 19%;
+    float: right;
+    padding-top: 16%;
+    padding-right: 22%;
+}
+.ninja {
     width: 23%;
     padding-bottom: 11%;
     width: 23%;
-    padding-top: 21%;
+    padding-top: 9%;
     margin-left: 0;
     position: relative;
-    left: 19%;
-  }
+    left: 24%;
+}
 .hidden {
-  display: none;
+    display: none;
 }
-
-
-
 .introScreen {
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4) ), url('images/knightsvsninjas.jpg');
-  box-shadow: 10px 10px 5px #888888;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 101%;
-  border: 2px solid black;
-  width: 67%;
-  height: 500px;
-  margin-left: 15%;
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('images/knightsvsninjas.jpg');
+    box-shadow: 10px 10px 5px #888888;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 101%;
+    border: 2px solid black;
+    width: 67%;
+    height: 500px;
+    margin-left: 15%;
 }
-
-.insertCoin{
-  font-family: 'Press Start 2P', cursive;
-  color: white;
-  font-size: 70px;
-  text-align: center;
-  margin-top: 22%;
+.insertCoin {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 22%;
 }
-
 .buttonContainer {
-  border: 2px solid black;
-  background-color: grey ;
-  box-shadow: 10px 10px 5px #888888;
-  width: 67%;
-  /*height: 500px;*/
-  margin-left: 15%;
-  margin-top: 16px;
-  height: 200px;
->>>>>>> c43393fd0be4ac2e84e24f92605afe6fc33a0a68
+    border: 2px solid black;
+    background-color: grey;
+    box-shadow: 10px 10px 5px #888888;
+    width: 67%;
+    margin-left: 15%;
+    margin-top: 16px;
+    <<<<<<< HEAD>>>>>>> c43393fd0be4ac2e84e24f92605afe6fc33a0a68=======height: 200px;
+}
+button {
+    margin-left: 3%;
+}
+button:hover {
+    background-color: #b1aaaa>>>>>>> 41662454b8d83959fbcd48e6538a3a88f8023059
 }
 #stats {
     background-color: red;
-    width: 20%;
+    width: 22%;
     display: inline-block;
 }
 #stats li {
-<<<<<<< HEAD
-    text-align: center;
+    text-align: left;
     border: 1px solid #000;
     list-style-type: none;
     width: 100%;
     background-color: gold;
 }
-=======
-  text-align: center;
-  border:1px solid #000;
-  list-style-type: none;
-  color: white;
-  margin-top: 17%;
-  width:100%;
-  background-color: gold;
-
+#stats img {
+    position: relative;
+    right: 79%;
+}
+#enemystats {
+    float: right;
+    left: 4%;
+    background-color: red;
+    width: 22%;
+    display: inline-block;
+}
+#enemystats li {
+    border: 1px solid #000;
+    list-style-type: none;
+    width: 100%;
+    background-color: gold;
+}
+.action-box {
+    text-align: center;
+    display: block;
+    background-color: white;
+}
+.hero-buttons {
 
 }
-
-
-
-@-webkit-keyframes{}
-  border: 1px solid #000;
-  list-style-type: none;
-  width: 100%;
-  background-color: gold; }
->>>>>>> c43393fd0be4ac2e84e24f92605afe6fc33a0a68
+.enemy-buttons {
+    display: inline-block;
+    float: right;
+}
+#enemystats img {
+    position: relative;
+    right: 79%;
+    
+}
+#enemystats li {
+    border: 1px solid #000;
+    list-style-type: none;
+    width: 100%;
+    background-color: gold;
+}
