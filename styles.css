@@ -128,13 +128,17 @@ header {
     width: 67%;
     margin-left: 15%;
     margin-top: 16px;
-    <<<<<<< HEAD>>>>>>> c43393fd0be4ac2e84e24f92605afe6fc33a0a68=======height: 200px;
+    height: 200px;
 }
-button {
-    margin-left: 3%;
+.hero-buttonsbutton {
+    margin-left: 1%;
+}
+
+.enemy-buttons{
+  margin-left: 1%
 }
 button:hover {
-    background-color: #b1aaaa>>>>>>> 41662454b8d83959fbcd48e6538a3a88f8023059
+    background-color: #b1aaaa;
 }
 #stats {
     background-color: red;
@@ -180,7 +184,7 @@ button:hover {
 #enemystats img {
     position: relative;
     right: 79%;
-    
+
 }
 #enemystats li {
     border: 1px solid #000;
