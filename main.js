@@ -40,12 +40,23 @@
 //         killEnemy(randEnemy);
 //     }
 // });
-let timeout = 1500;
+var time = 1500;
+var healthbar =(`<div class="healthbar">'${shogun.Health}'</div>`);
 
+$('#hitMessage').append(healthbar);
+
+$('#hitMessage').addClass('hidden');
 
 $('#mainAttack').on('click', function() {
-    knight.attackMain(shogun);
-    setTimeout(function(){document.getElementById("myDiv").style.display = "none";},timeout);
+  knight.attackMain(shogun);
+  var popup = setTimeout(function(){
+    $('#hitMessage').toggle();
+  }, time);
+  $hitMessage = $('#hitMessage');
+  if ($hitMessage.css('display','block')){
+    popup = null;
+
+  }
 })
 $('#lightAttack').on('click', function() {
     knight.attackSecondary(shogun)
@@ -93,14 +104,12 @@ $('.insertCoin').on('click', function(event) {
         randomEnemy = samurai;
     }
 
-<<<<<<< HEAD
 $('.insertCoin').on('click', function(event){
    console.log("insert screen removed")
    event.preventDefault();
    $('.insertCoin').addClass('hidden');
    $('.introScreen').addClass('hidden');
    $('.main-container').removeClass('hidden');
-   $('#hitMessage').toggleClass('hidden')
  });
 
     $('#Name').append(`${randomCombatant.Name}`)
