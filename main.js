@@ -34,4 +34,6 @@ $('.insertCoin').on('click', function(event){
    $('.insertCoin').addClass('hidden');
    $('.introScreen').addClass('hidden');
    $('.main-container').removeClass('hidden');
+   $('.buttonContainer').removeClass('hidden');
+
  });

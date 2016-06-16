@@ -3,7 +3,6 @@ header {
     background-color: gray;
 }
 .main-container {
-<<<<<<< HEAD
     width: 100%;
     height: 500px;
     border: 1px solid black;
@@ -12,7 +11,6 @@ header {
     border: 1px solid black;
 }
 .main-container .knightsvsninjas {
-=======
   box-shadow: 10px 10px 5px #888888;
   border: 2px solid black;
   width: 67%;
@@ -28,7 +26,6 @@ header {
   .main-container .buttonContainer {
     border: 1px solid black; }
   .main-container .knightsvsninjas {
->>>>>>> c43393fd0be4ac2e84e24f92605afe6fc33a0a68
     background-image: url("images/dojo.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -37,7 +34,6 @@ header {
     display: inline-block;
     width: 100%;
     height: 100%;
-<<<<<<< HEAD
     background-color: black;
 }
 .main-container .knightsvsninjas #hitMessage {
@@ -65,7 +61,6 @@ header {
     text-align: center;
     background-color: yellow;
     width: 100%;
-=======
     background-color: black; }
 
   .main-container .knights {
@@ -94,6 +89,7 @@ header {
   float: right;
     padding-top: 16%;
       padding-right: 12%;
+
   }
   .ninja{
     width: 23%;
@@ -129,6 +125,28 @@ header {
   text-align: center;
   margin-top: 22%;
 }
+/*#mainAttack {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #999;
+}*/
+/*#mainAttack:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#mainAttack:hover {
+  background-color:red;
+  font-size: 5em;
+
+}*/
 
 .buttonContainer {
   border: 2px solid black;
@@ -139,7 +157,8 @@ header {
   margin-left: 15%;
   margin-top: 16px;
   height: 200px;
->>>>>>> c43393fd0be4ac2e84e24f92605afe6fc33a0a68
+
+
 }
 #stats {
     background-color: red;
@@ -147,14 +166,12 @@ header {
     display: inline-block;
 }
 #stats li {
-<<<<<<< HEAD
     text-align: center;
     border: 1px solid #000;
     list-style-type: none;
     width: 100%;
     background-color: gold;
 }
-=======
   text-align: center;
   border:1px solid #000;
   list-style-type: none;
@@ -173,4 +190,3 @@ header {
   list-style-type: none;
   width: 100%;
   background-color: gold; }
->>>>>>> c43393fd0be4ac2e84e24f92605afe6fc33a0a68
