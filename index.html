@@ -14,11 +14,11 @@
         <h1></h1>
     </header>
     <div class="main-container hidden">
-      <div class="knightsvsninjas">
-         <div id="hitMessage" style="color:white">HIT MESSAGE</div>
-        <img class = "knight" src="images/stationedknight.gif" alt="" />
-        <img class = "ninja" src="images/ninja.gif" alt="" />
-      </div>
+        <div class="knightsvsninjas">
+            <div id="hitMessage" style="color:white">HIT MESSAGE</div>
+            <img class="knight" src="images/stationedknight.gif" alt="" />
+            <img class="ninja" src="images/ninja.gif" alt="" />
+        </div>
     </div>
 
     <div class="introScreen">
@@ -28,24 +28,36 @@
         <div id="statsContainer">
             <ul id="stats">
                 <img class="knight" src="images/stationedknight.gif" alt="" />
-                <li id="Name">name</li>
-                <li id="Health">health</li>
-                <li id="Attack">attack</li>
-                <li id="Evade">evade</li>
 
-              </ul>
-              <button id="mainAttack">Heavy Attack</button>
-              <button id="lightAttack">Light Attack</button>
-              <button id="dodge">dodge</button>
-            </div>
-          </div>
+                <li id="Name">Name: </li>
+                <li id="Health">Health: </li>
+                <li id="Attack">Max Attack: </li>
+                <li id="Evade">Max Evade: </li>
+
+            </ul>
+            <button id="mainAttack" type="button">Heavy Attack</button>
+            <button id="lightAttack" type="button">Light Attack</button>
+            <button id="dodge" type="button">dodge</button>
+            <ul id="enemystats">
+                <!-- <img class="knight" src="images/stationedknight.gif" alt="" /> -->
+
+                <li id="enName">Name: </li>
+                <li id="enHealth">Health: </li>
+                <li id="enAttack">Max Attack: </li>
+                <li id="enEvade">Max Evade: </li>
+
+            </ul>
+
+        </div>
+    </div>
+
 
     <audio class="musicplayer hidden" autoplay="" controls="">
-        <source src="gamemusic.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-      </audio>
+        <source src="gamemusic.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
+
     <script src="node_modules/jquery/dist/jquery.js" charset="utf-8"></script>
-    <script src="weapons.js" charset="utf-8"></script>
+    <!-- <script src="weapons.js" charset="utf-8"></script> -->
     <script src="characters.js" charset="utf-8"></script>
     <script src=main.js charset="utf-8">
     </script>

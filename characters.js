@@ -18,8 +18,9 @@ class Combatant {
 
         } else if (enemy.Health <= 0 ) {
             enemy.kill()
+            console.log("enemy is dead!")
+
         }
-  
     }
     attackSecondary(enemy) {
         console.log(enemy.Health -= Math.floor(this.Damage * Math.random()))
