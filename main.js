@@ -1,5 +1,6 @@
 $('#mainAttack').on('click',function(){
-  knight.attackMain(shogun);
+  knight.attackMain(enemy,);
+  $('#hitMessage').slideDown(2000);
 });
 $('#lightAttack').on('click',function(){
   knight.attackSecondary(shogun)
@@ -21,7 +22,7 @@ $('#Calvary').on('click', function(e) {
         randEnemy = monk;
     }
 
-    if (randEnemy.Health > 0) {
+    if (shogun.Health > 0) {
         calvary.attackMain(randEnemy);
     } else {
         killEnemy(randEnemy);
@@ -34,4 +35,5 @@ $('.insertCoin').on('click', function(event){
    $('.insertCoin').addClass('hidden');
    $('.introScreen').addClass('hidden');
    $('.main-container').removeClass('hidden');
+   $('#hitMessage').toggleClass('hidden')
  });
