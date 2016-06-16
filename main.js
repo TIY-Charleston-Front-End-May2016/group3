@@ -1,3 +1,4 @@
+
 //
 // $('#Name').append(`${knight.Name}`)
 // $('#Health').append(`${knight.Health}`)
@@ -39,11 +40,24 @@
 //         killEnemy(randEnemy);
 //     }
 // });
+var time = 1500;
+var healthbar =(`<div class="healthbar">'${shogun.Health}'</div>`);
 
+$('#hitMessage').append(healthbar);
+
+$('#hitMessage').addClass('hidden');
 
 $('#mainAttack').on('click', function() {
-    knight.attackMain(shogun);
-});
+  knight.attackMain(shogun);
+  var popup = setTimeout(function(){
+    $('#hitMessage').toggle();
+  }, time);
+  $hitMessage = $('#hitMessage');
+  if ($hitMessage.css('display','block')){
+    popup = null;
+
+  }
+})
 $('#lightAttack').on('click', function() {
     knight.attackSecondary(shogun)
 })
@@ -64,7 +78,7 @@ $('#Calvary').on('click', function(e) {
         randEnemy = monk;
     }
 
-    if (randEnemy.Health > 0) {
+    if (shogun.Health > 0) {
         calvary.attackMain(randEnemy);
     } else {
         killEnemy(randEnemy);
@@ -89,6 +103,14 @@ $('.insertCoin').on('click', function(event) {
         randomCombatant = squire;
         randomEnemy = samurai;
     }
+
+$('.insertCoin').on('click', function(event){
+   console.log("insert screen removed")
+   event.preventDefault();
+   $('.insertCoin').addClass('hidden');
+   $('.introScreen').addClass('hidden');
+   $('.main-container').removeClass('hidden');
+ });
 
     $('#Name').append(`${randomCombatant.Name}`)
     $('#Health').append(`${randomCombatant.Health}`)

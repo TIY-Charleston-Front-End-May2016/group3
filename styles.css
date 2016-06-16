@@ -11,6 +11,9 @@ header {
     border: 1px solid black;
 }
 .main-container .knightsvsninjas {
+
+  box-shadow: 10px 10px 5px #888888;
+
     box-shadow: 10px 10px 5px #888888;
     border: 2px solid black;
     width: 67%;
@@ -136,6 +139,13 @@ button{
 button:hover{
     background-color:#b1aaaa
 }
+.buttonContainer button {
+  width:12%;
+  position:relative;
+}
+.healthbar{
+  display:inline-block;
+}
 #stats {
     background-color: red;
     width: 22%;
@@ -160,9 +170,25 @@ left: 4%;
     width: 22%;
     display: inline-block;
 }
+
+#enemystats li {
+  border: 1px solid #000;
+  list-style-type: none;
+  width: 100%;
+  background-color: gold;
+}
+text-align: center;
+border:1px solid #000;
+list-style-type: none;
+color: white;
+margin-top: 17%;
+width:100%;
+background-color: gold;
+
 #enemystats img{
   position: relative;
   right: 79%;
+
 }
 #enemystats li {
     border: 1px solid #000;

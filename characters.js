@@ -14,13 +14,13 @@ class Combatant {
 
         console.log(swing, dodge)
         if (swing >= dodge) {
-          enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage );
-            // console.log(this.Health -= enemy.Damage)
-        } else {
-            console.log("FUUUUUUUUUUUUUUUUUUUUUUUCK")
+          enemy.Health -= this.Damage - Math.floor(Math.random() * this.Damage);
+
+        } else if (enemy.Health <= 0 ) {
+            enemy.kill()
+            console.log("enemy is dead!")
+
         }
-        // else if (`${enemy.Health}`<=0){ console.log(`${enemy.Name} is dead!!!!`)};
-        // else if(`${this.Health}`<=0){console.log(`${this.Name} is dead!!!`)}
     }
     attackSecondary(enemy) {
         console.log(enemy.Health -= Math.floor(this.Damage * Math.random()))
@@ -40,7 +40,10 @@ class Combatant {
             console.log("Miss", enemy.Health);
         }
     }
-}
+    kill() {
+      $('.ninja').slideUp(2000);
+      }
+    }
 
 
 class Europe extends Combatant {
