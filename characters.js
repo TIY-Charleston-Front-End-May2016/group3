@@ -18,8 +18,6 @@ class Combatant {
 
         } else if (enemy.Health <= 0 ) {
             enemy.kill()
-            console.log("enemy is dead!")
-
         }
     }
     attackSecondary(enemy) {
@@ -42,6 +40,7 @@ class Combatant {
     }
     kill() {
       $('.ninja').slideUp(2000);
+      
       }
     }
 
